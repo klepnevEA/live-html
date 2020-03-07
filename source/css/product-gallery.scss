@@ -1,0 +1,18 @@
+.product-gallery {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.product-gallery__elem {
+    padding: 0 6px;
+}
+
+.product-gallery__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    padding: 8px;
+    border: 1px solid $gray;
+}

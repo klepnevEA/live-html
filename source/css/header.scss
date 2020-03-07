@@ -1,0 +1,46 @@
+.header {
+    padding: 20px 0 0;
+}
+
+.header__top {
+    display: flex;
+}
+
+.header__sub-nav {
+    display: flex;
+    height: 34px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba($black, 0.1);
+}
+
+.header__logo {
+    width: 210px;
+    flex: 0 0 auto;
+    margin-right: 30px;
+}
+
+
+.header__main {
+    flex: 1 1 auto;
+}
+
+.header__main-menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $gray;
+    padding-bottom: 7px;
+}
+
+.header__content {
+    display: flex;
+    padding: 20px 0 30px;
+}
+
+.header__basket-menu {
+    margin-right: 30px;
+}
+
+.header__product-gallery {
+    margin-right: 30px;
+}

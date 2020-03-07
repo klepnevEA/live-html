@@ -1,0 +1,10 @@
+.sale-button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: $black;
+    background-color: $ellow;
+    font: 700 14px/1.2 $roboto;
+    text-transform: uppercase;
+    padding: 0 15px;
+}

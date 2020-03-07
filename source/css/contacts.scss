@@ -1,0 +1,53 @@
+.contacts {
+    width: 185px;
+    margin-left: auto;
+}
+
+.contacts__time {
+    display: flex;
+    font: 400 12px/1.2 $roboto;
+    justify-content: space-between;
+}
+
+.contacts__time-text {
+    font-weight: 700;
+    font-size: 10px;
+    margin-bottom: 14px;
+}
+
+.contacts__phone {
+    display: block;
+    font: 700 25px/1.2 $roboto;
+    margin-bottom: 4px;
+    color: $black;
+    padding-bottom: 14px;
+    border-bottom: 1px solid $gray;
+}
+
+.contacts__place {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__city {
+    font: 400 12px/1.2 $roboto;
+}
+
+.contacts__city-chenge {
+    position: relative;
+    font: 400 12px/1.2 $roboto;
+    border-bottom: 1px dotted $black;
+    color: $black;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: calc(100% + 8px);
+        transform: translate(0, -50%);
+        border-left: 8px solid $black;
+        border-right: 0;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+    }
+}

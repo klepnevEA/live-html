@@ -1,0 +1,14 @@
+.search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $ellow;
+    width: 40px;
+    height: 100%;
+}
+
+.search-button__icon {
+    width: 19px;
+    height: 19px;
+    fill: $black;
+}
